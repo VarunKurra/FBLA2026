@@ -1,6 +1,6 @@
-# Project Retrace
+# Retrace
 
-Retrace is a high-precision lost and found application designed for the FBLA 2026 competition. It focuses on providing a modern, secure, and intuitive platform for campus communities to recover lost items through advanced searching and mapping.
+Retrace is a high-precision lost and found application designed for the FBLA 2026 competition. It provides a secure and intuitive platform for campus communities to recover lost items through advanced searching and mapping.
 
 The application is built with a focus on visual excellence and functional depth, ensuring a premium experience for both students and administrators.
 
