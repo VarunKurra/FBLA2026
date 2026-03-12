@@ -1,16 +1,32 @@
-# React + Vite
+# 🕵️ Project Retrace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+hey! so this is **Retrace**, a lost and found app i built for FBLA 2026. basically, it's meant to help students find their lost stuff around campus without all the usual stress. 
 
-Currently, two official plugins are available:
+i wanted to make it feel super modern and actually useful, so i added some pretty cool tech under the hood.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 check it out
+**Live Site:** [https://retrace-mo.vercel.app](https://retrace-mo.vercel.app)
 
-## React Compiler
+## ✨ key features (the cool stuff)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **Neural Search 🧠:** okay, this is my favorite part. instead of just searching for keywords, you can actually describe what you lost in plain english (like "my crusty blue water bottle") and the AI (Groq + Llama 3) will try to find it. super helpful if you don't know the exact name of the item.
+*   **Spatial Map 📍:** it's got a map view where you can see exactly where items were found. it even helps you navigate to them.
+*   **Admin Console 🛡️:** i built a professional dashboard for school staff to manage all the reports, approve claims, and keep things organized.
+*   **Premium UI ✨:** worked really hard on the design. it uses glassmorphism, smooth animations (thanks to framer-motion), and it's fully responsive so it looks great on a phone too.
 
-## Expanding the ESLint configuration
+## 🛠️ tech stack
+*   **Frontend:** React + Vite (speed is key ⚡)
+*   **Styling:** Vanilla CSS (custom designed from scratch)
+*   **Animations:** Framer Motion
+*   **Backend/DB:** Supabase
+*   **AI:** Groq API (Llama-3-8b)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏗️ how to run it locally
+if you want to play around with the code, here's how to get it running:
+
+1.  clone the repo: `git clone https://github.com/VarunKurra/FBLA2026.git`
+2.  install dependencies: `npm install`
+3.  create a `.env` file and add your `VITE_GROQ_API_KEY`
+4.  start the dev server: `npm run dev`
+
+hope you like it! let me know if you have any questions. ✌️
