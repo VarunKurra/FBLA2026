@@ -288,7 +288,7 @@ const Dashboard = () => {
                 )}
             </div>
 
-            <style jsx>{`
+            <style>{`
                 .dash-header-v5 { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 40px; }
                 .school-pill { display: inline-flex; align-items: center; gap: 8px; background: white; padding: 6px 14px; border-radius: 30px; border: 1px solid var(--border-glass); font-size: 0.8rem; font-weight: 700; color: var(--color-primary); margin-bottom: 1rem; }
                 .dash-header-v5 h1 { font-size: 2.5rem; letter-spacing: -0.04em; }
