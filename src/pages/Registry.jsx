@@ -150,8 +150,8 @@ const Registry = () => {
             return isSameSchool && matchesCategory && aiFilteredIds.includes(item.id);
         }
 
-        const matchesSearch = item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            item.location_name.toLowerCase().includes(searchTerm.toLowerCase());
+        const matchesSearch = (item.title || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
+            (item.location_name || item.location || '').toLowerCase().includes(searchTerm.toLowerCase());
         return isSameSchool && matchesSearch && matchesCategory;
     });
 
@@ -304,13 +304,13 @@ const Registry = () => {
                                     </div>
                                     <h3>{item.title}</h3>
                                     <div className="loc-v5">
-                                        <MapPin size={14} /> <span>{item.location_name}</span>
+                                        <MapPin size={14} /> <span>{item.location_name || item.location}</span>
                                     </div>
                                     <p>{item.description}</p>
 
                                     <div className="card-footer-v5">
                                         <div className="time-v5">
-                                            <Clock size={12} /> {new Date(item.created_at).toLocaleDateString()}
+                                            <Clock size={12} /> {new Date(item.created_at || item.timestamp).toLocaleDateString()}
                                         </div>
                                         <div className="btn-group-v5">
                                             <button className="inquiry-trigger-v5" onClick={() => setInquiryItem(item)}>
@@ -385,7 +385,7 @@ const Registry = () => {
                 </AnimatePresence>
             </div>
 
-            <style jsx>{`
+            <style>{`
                 .reg-header-v5 { margin-bottom: 40px; }
                 .header-txt .badge { display: inline-block; background: var(--color-primary-soft); color: var(--color-primary-deep); padding: 8px 16px; border-radius: 30px; font-size: 0.75rem; font-weight: 800; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
                 .header-txt h1 { font-size: 2.8rem; color: var(--color-dark); margin-bottom: 0.5rem; letter-spacing: -0.04em; }

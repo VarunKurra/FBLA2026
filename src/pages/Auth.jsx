@@ -316,7 +316,7 @@ const Auth = () => {
 
             </div>
 
-            <style jsx>{`
+            <style>{`
         .auth-v5 {
           min-height: 100vh;
           display: flex;

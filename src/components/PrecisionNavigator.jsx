@@ -306,7 +306,7 @@ const PrecisionNavigator = ({ target, onArrival }) => {
                 )}
             </div>
 
-            <style jsx>{`
+            <style>{`
                 .floating-navigator {
                     position: absolute;
                     top: 120px;

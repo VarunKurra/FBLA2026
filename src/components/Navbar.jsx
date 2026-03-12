@@ -69,7 +69,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .nav-v5 {
           position: fixed;
           top: 0;

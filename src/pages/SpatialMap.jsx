@@ -130,7 +130,7 @@ const SpatialMap = () => {
                 />
             </div>
 
-            <style jsx>{`
+            <style>{`
         .map-page-v5 { width: 100%; height: 100vh; position: relative; background: #E2E8F0; overflow: hidden; }
         .map-page-v5.empty { display: flex; align-items: center; justify-content: center; background: #F8FAFC; }
         .empty-card { padding: 4rem; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 1.5rem; }

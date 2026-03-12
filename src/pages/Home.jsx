@@ -177,7 +177,7 @@ const Home = () => {
                 </div>
             </footer>
 
-            <style jsx>{`
+            <style>{`
         .home-v5 { background: #FFFFFF; color: var(--text-main); overflow-x: hidden; }
         
         .hero-v5 { padding: 180px 0 120px; position: relative; display: flex; align-items: center; background: #F8FAFC; border-bottom: 1px solid #F1F5F9; }

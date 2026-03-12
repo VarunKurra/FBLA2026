@@ -297,7 +297,7 @@ const Report = () => {
                 </div>
             </div>
 
-            <style jsx>{`
+            <style>{`
                 .report-v5 { background: #F8FAFC; }
                 .report-header-v5 { margin-bottom: 50px; }
                 .badge { 
