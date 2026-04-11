@@ -18,8 +18,9 @@
 
 .radar-circle {
   position: absolute;
-  width: 600px;
-  height: 600px;
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
   border: 1px solid rgba(0, 255, 156, 0.05);
   display: flex;
