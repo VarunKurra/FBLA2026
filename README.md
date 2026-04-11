@@ -1,4 +1,5 @@
 # RetraceWest
+![RetraceWest Screenshot](./Asset-Logo.png)
 
 **RetraceWest** is a comprehensive lost-and-found management platform designed for Parkway West High School, aimed at modernizing and securing the process of reporting, discovering, and reclaiming lost items. This application was developed as a submission for the FBLA 2026 event.
 
