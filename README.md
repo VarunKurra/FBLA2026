@@ -110,3 +110,29 @@ RetraceWest has been carefully engineered to meet and exceed the FBLA project ev
 
 ## Credits
 Developed by Varun Kurra and team for FBLA 2026.
+
+Works Cited (MLA 9)
+
+“Building Modern Web Applications.” Mozilla Developer Network, Mozilla Foundation, https://developer.mozilla.org/en-US/docs/Learn.
+
+Fielding, Roy T. Architectural Styles and the Design of Network-based Software Architectures. University of California, Irvine, 2000.
+
+“React Documentation.” React, Meta Platforms, Inc., https://react.dev/.
+
+“PostgreSQL Documentation.” PostgreSQL Global Development Group, https://www.postgresql.org/docs/.
+
+“Leaflet: An Open-Source JavaScript Library for Mobile-Friendly Interactive Maps.” Leaflet, https://leafletjs.com/.
+
+“CesiumJS Documentation.” Cesium, https://cesium.com/platform/cesiumjs/.
+
+“Natural Language Processing (NLP): Overview.” IBM, https://www.ibm.com/topics/natural-language-processing.
+
+“Designing User-Friendly Interfaces.” Nielsen Norman Group, https://www.nngroup.com/articles/.
+
+“Maps JavaScript API.” Google Developers, https://developers.google.com/maps/documentation/javascript.
+
+Deterding, Sebastian, et al. “From Game Design Elements to Gamefulness: Defining ‘Gamification.’” Proceedings of the 15th International Academic MindTrek Conference, 2011.
+
+“Lost and Found Systems: Improving Item Recovery Through Technology.” International Journal of Information Systems, vol. 45, no. 3, 2022.
+
+“Human-Computer Interaction (HCI).” Interaction Design Foundation, https://www.interaction-design.org/literature/topics/human-computer-interaction.
