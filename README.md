@@ -111,7 +111,7 @@ RetraceWest has been carefully engineered to meet and exceed the FBLA project ev
 ## Credits
 Developed by Varun Kurra and team for FBLA 2026.
 
-Works Cited (MLA 9)
+## Works Cited (MLA 9)
 
 “Building Modern Web Applications.” Mozilla Developer Network, Mozilla Foundation, https://developer.mozilla.org/en-US/docs/Learn.
 
